@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::selection {
+  /* Disables text highlighting */
+  color: none;
+  background: none;
+}
+*::-moz-selection {
+  /* For Mozilla Firefox */
+  color: none;
+  background: none;
+}
